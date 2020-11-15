@@ -224,3 +224,21 @@ switch(x){
  default:    
  console.log("fail");
 }
+
+function studentresult(name,percentage){
+    console.log("my name is " + name + " and my percentage is " + percentage );
+}
+studentresult("Disha Patni" , 70)
+studentresult("Sharuk Khan" , 30);
+studentresult("Salman Khan" , 34);
+studentresult("Rashmika Mandana" , 66);
+studentresult("Shraddha Kapoor" , 60);
+
+
+
+function input(temperature){
+    let result = (temperature*9/5)+32 
+    console.log("temperature into fahrenheit " + result);
+}
+input(30)
+input(60)
